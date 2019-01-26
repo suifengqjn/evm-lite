@@ -82,8 +82,8 @@ if err != nil {
 
 ## evm 和solc
 
-[evm](https://github.com/suifengqjn/evm-lite/EVM/evm.md)
-[solc](https://github.com/suifengqjn/evm-lite/solc/solc编译器初步分析.md)
+[evm](https://github.com/suifengqjn/evm-lite/blob/master/EVM/evm.md)
+[solc](https://github.com/suifengqjn/evm-lite/blob/master/solc/solc%E7%BC%96%E8%AF%91%E5%99%A8%E5%88%9D%E6%AD%A5%E5%88%86%E6%9E%90.md)
 
 ## 其他重要说明
 * 由于是EVM的精简版，代码上已经尽量的做了删减，但考虑到最大的兼容，因此保留了几乎所有的针对以太坊的配置设置,具体的配置可以根据实际集成的链进行调整，可以参考demo/runtime.go进行调整
